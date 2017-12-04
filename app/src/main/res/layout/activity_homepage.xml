@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bread97.multiple_choice_question.Homepage">
+
+    <Button
+        android:id="@+id/btnquit"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:text="Quit"
+        android:layout_below="@+id/beginTest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:onClick="quit"/>
+
+    <Button
+        android:id="@+id/beginTest"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:text="Begin Test"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
